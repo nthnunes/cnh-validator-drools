@@ -58,7 +58,7 @@ Este arquivo define as regras utilizando a linguagem específica do Drools, DRL 
 O Drools é configurado através do contêiner de regras e a sessão:
 
 - **KieContainer**: É responsável por carregar todas as configurações do Drools e inicializar o ambiente de execução das regras.
-- **KieSession**: Gerencia as inserções de fatos (instâncias de CNHs) e dispara as regras quando necessário. A sessão utilizada no código é criada a partir da configuração definida no arquivo `kmodule.xml` (não mostrado neste exemplo).
+- **KieSession**: Gerencia as inserções de fatos (instâncias de CNHs) e dispara as regras quando necessário. A sessão utilizada no código é criada a partir da configuração definida no arquivo `kmodule.xml`.
 
 ### 4. Execução
 
